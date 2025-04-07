@@ -1,0 +1,17 @@
+name: Money
+main: me.gabriel.economy.Main
+version: 1.0
+author: gabriel
+description: Um plugin de exemplo para Minecraft.
+api-version: 1.21.4
+
+commands:
+  saldo:
+    description: Mostra o saldo do jogador
+    usage: /saldo
+    permission: 
+  setsaldo:
+    description: Define o saldo de um jogador
+    usage: /setsaldo <jogador> <quantia>
+    permission: money.setsaldo
+
